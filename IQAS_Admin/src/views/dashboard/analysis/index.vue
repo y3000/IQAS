@@ -1,6 +1,8 @@
 <template>
   <div class="p-4">
-    <GrowCard :loading="loading" class="enter-y" />
+    <Card title="流量数据" :loading="loading">
+      <GrowCard :loading="loading" class="enter-y" />
+    </Card>
     <SiteAnalysis class="!my-4 enter-y" :loading="loading" />
     <div class="md:flex enter-y">
       <VisitRadar class="md:w-1/3 w-full" :loading="loading" />
@@ -16,10 +18,17 @@
   import VisitSource from './components/VisitSource.vue'
   import VisitRadar from './components/VisitRadar.vue'
   import SalesProductPie from './components/SalesProductPie.vue'
-
+  import { Card } from 'ant-design-vue'
   const loading = ref(true)
 
   setTimeout(() => {
     loading.value = false
   }, 1500)
 </script>
+<style lang="less" scoped>
+.crad{
+  padding: 20px 0;
+  width: 100%;
+  background-color: pink;
+}
+</style>

@@ -9295,6 +9295,11 @@
   "resolved" "https://registry.npmmirror.com/vscode-uri/-/vscode-uri-3.0.3.tgz"
   "version" "3.0.3"
 
+"vue-dataac@^2.0.9":
+  "integrity" "sha512-gLXauQTKFMU2pG/DYW0nzCxPDTO0kl3cFCVNYnZlBpXpONXsx0WHDVKtw1jOabSaix+be6+PqwV52lkY6jp5hw=="
+  "resolved" "https://registry.npmjs.org/vue-dataac/-/vue-dataac-2.0.9.tgz"
+  "version" "2.0.9"
+
 "vue-demi@*":
   "integrity" "sha512-41ukrclEbMddAyP7PvxMSYqnOSzPV6r7GNnyTSKSCNTaz19GehxmTiXyP9kwHSUv2+Dr6hHqiUiF7L1VAw2KdQ=="
   "resolved" "https://registry.npmmirror.com/vue-demi/-/vue-demi-0.13.2.tgz"

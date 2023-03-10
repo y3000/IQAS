@@ -1,4 +1,5 @@
 <template>
+  <div class="date">{{ new Date().toLocaleDateString() }}</div>
   <div ref="chartRef" :style="{ height, width }"></div>
 </template>
 <script lang="ts">
@@ -87,3 +88,10 @@
     })
   })
 </script>
+<style lang="less" scoped>
+.date{
+  margin: -20px 0 10px 0;
+  padding: 5px 10px;
+  color: gray;
+}
+</style>
